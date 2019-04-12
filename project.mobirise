@@ -1,9 +1,7 @@
 {
   "settings": {
+    "name": "Site-04-12_1300",
     "currentPage": "index.html",
-    "versionFirst": "4.6.6",
-    "versionPublish": "4.6.0",
-    "name": "Site-03-26_1410",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -23,13 +21,16 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
-        "#090909"
+        "#b98eb1",
+        "#af1f10"
       ]
     },
-    "uniqCompNum": 19,
+    "snow": "",
+    "versionFirst": "4.6.0",
+    "uniqCompNum": 40,
+    "versionPublish": "4.6.0",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png",
-    "snow": ""
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -43,563 +44,327 @@
       },
       "components": [
         {
-          "_params": {
-            "showText": false,
-            "paddingTop": 4,
-            "paddingBottom": 4,
-            "bgColor": "#090909"
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/image1.jpg",
-              "width": 1400
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
-            }
-          },
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "image2",
-          "_anchor": "image2-b"
-        },
-        {
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#090909"
-          },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">подумаю</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline btn-primary\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">нефиг думать</a>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-c"
-        },
-        {
           "_styles": {
-            ".mbr-section-title": {
-              "font-weight": "700",
-              "letter-spacing": ".5vw",
-              "text-transform": "uppercase"
+            ".display-1": {
+              "font-weight": "700"
+            },
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
             },
             ".mbr-section-subtitle": {
-              "text-transform": "uppercase",
-              "letter-spacing": "2px",
-              "color": "#fff"
+              "font-size": "18px"
             }
           },
-          "_params": {
-            "showTitle": true,
-            "showImages": true,
-            "showTitles": true,
-            "ShowTexts": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": "4",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/features/03.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#090909",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#f9593a",
-            "overlayOpacity": 0.9
-          },
-          "media1": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features16",
-              "linkInNewWindow": false,
-              "name": "mobile",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fc7a60"
-            }
-          },
-          "media2": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features16",
-              "linkInNewWindow": false,
-              "name": "timer",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fc7a60"
-            }
-          },
-          "media3": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features16",
-              "linkInNewWindow": false,
-              "name": "smile-face",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fc7a60"
-            }
-          },
-          "media4": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features16",
-              "linkInNewWindow": false,
-              "name": "hotairballoon",
-              "family": "et-line",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fc7a60"
-            }
-          },
-          "media5": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features16",
-              "name": "globe",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fc7a60",
-              "family": "cm-icon"
-            }
-          },
-          "media6": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features16",
-              "name": "compass",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fc7a60",
-              "family": "cm-icon"
-            }
-          },
-          "title": "бла-бла",
-          "title1": "Bootstrap 4",
-          "subtitle1": "оплтбтл",
-          "caption1": "лоддьпопало &nbsp;ооооооооооооооооооооооовпрлрл",
-          "title2": "Responsive",
-          "subtitle2": "орллт",
-          "caption2": "опорорплорааааааааааааааааааа",
-          "title3": "Web Fonts",
-          "subtitle3": "лолл",
-          "caption3": "гплгплгопрортолтол &nbsp; ьлтлтлтол",
-          "title4": "Unlimited Sites",
-          "subtitle4": "глг",
-          "caption4": "гггщгщгрплраааааааааааааааа",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "buttons": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\">learn more</a>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features16",
-          "_anchor": "features16-5"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title": {
-              "font-weight": "700",
-              "letter-spacing": ".5vw",
-              "text-transform": "uppercase"
-            },
-            ".mbr-section-subtitle": {
-              "text-transform": "uppercase",
-              "letter-spacing": "2px",
-              "color": "#fff"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showImages": true,
-            "showTitles": true,
-            "ShowTexts": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": 4,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/features/03.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#090909",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#f9593a",
-            "overlayOpacity": 0.9
-          },
-          "media1": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features16",
-              "linkInNewWindow": false,
-              "name": "timer",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#26f723"
-            }
-          },
-          "media2": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features16",
-              "linkInNewWindow": false,
-              "name": "timer",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#26f723"
-            }
-          },
-          "media3": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features16",
-              "linkInNewWindow": false,
-              "name": "axe",
-              "family": "cm-icon",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#26f723"
-            }
-          },
-          "media4": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features16",
-              "linkInNewWindow": false,
-              "name": "rocket",
-              "family": "cm-icon",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#26f723"
-            }
-          },
-          "media5": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features16",
-              "name": "globe",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fc7a60",
-              "family": "cm-icon"
-            }
-          },
-          "media6": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features16",
-              "name": "compass",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fc7a60",
-              "family": "cm-icon"
-            }
-          },
-          "title": "Features",
-          "title1": "Bootstrap 4",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "title2": "Responsive",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "buttons": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\">learn more</a>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features16",
-          "_anchor": "features16-6"
-        },
-        {
           "_params": {
             "showTitle": true,
             "showText": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "showButtons": true,
+            "buttonAlign": "left",
+            "showArrow": false,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/07.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#090909",
-            "bgVideoRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#16a085",
+            "bgVideoRadio": true,
             "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
             },
             "overlay": true,
-            "overlayColor": "#f1c40f",
-            "overlayOpacity": 0.85
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.1"
           },
-          "title": "За все хорошее, против всего плохого",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci a, rem accusantium recusandae beatae. Eos quae sint minus dolorum facere, iure illum veritatis harum minima quod voluptatibus culpa tenetur eveniet enim. Natus, id cupiditate aperiam obcaecati incidunt nam minus accusantium libero officia expedita dignissimos optio, quis, minima quibusdam esse saepe!",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
-          "form": {
-            "action": "RomaUmi@mail.ru",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "name": {
-                "visible": false,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email"
-              },
-              "phone": {
-                "visible": false,
-                "title": "Phone",
-                "customTitle": "Phone"
-              }
-            }
-          },
+          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
+          "title": "Бизнес-тренинг в Кромах",
+          "text": "Первый и единственный",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://api.whatsapp.com/send?phone=79651237911.\" data-toolbar=\"-mbrBtnMove\">WHATSAPP</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"mailto:Romavent@mail.ru\" data-toolbar=\"-mbrBtnMove\">Email</a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "intro6",
-          "_anchor": "intro6-7",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#f39c12"
-            }
-          }
-        },
-        {
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#090909"
-          },
-          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content4",
-          "_anchor": "content4-a"
+          "_name": "header3",
+          "_anchor": "header3-0"
         },
         {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
             },
+            "P": {
+              "font-size": "20px"
+            },
             "H3": {
-              "color": "#f39c12"
+              "font-size": "46px"
             }
           },
           "_params": {
             "showMeta": true,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#090909"
+            "bgColor": "#f1c40f"
           },
-          "title": "Мы нереально круты",
-          "meta": "By <b>John Smith</b> posted July 20, 2016",
+          "title": "Настоятельно рекомендую внимательно дочитать до конца",
+          "meta": "<b>Это может изменить Вашу жизнь</b>",
           "_tags": [
             "Theme"
           ],
           "_name": "content3",
-          "_anchor": "content3-8"
+          "_anchor": "content3-b"
         },
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "B": {
+              "font-size": "18px"
+            }
+          },
           "_params": {
+            "showMeta": true,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#090909"
+            "bgColor": "#eeeeee"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">Подумать</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline btn-primary\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">Нефиг думать</a>",
-          "alias": "colorm/components",
+          "title": "Что это?",
+          "meta": "<b><br></b><br><b>Двухмесячный тренинг по открытию своего дела и финансовой грамотности\n</b><br><br><b>На основе образовательной программы Правительства Москвы<br>\n<br>То, чему не учат в школе и университете\n<br>\n<br>То, о чем я жалею, что не знал в свои 18 лет\n<br>\n<br>Это единственный набор и больше такого не будет</b>",
           "_tags": [
             "Theme"
           ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-9"
+          "_name": "content3",
+          "_anchor": "content3-11"
         },
         {
           "_styles": {
-            "H2": {
-              "color": "#f39c12"
-            }
-          },
-          "_params": {
-            "showTitles": true,
-            "showText": false,
-            "showSubtitles": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/extFeatures1/images/01.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#090909",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.75
-          },
-          "title": "Наша статистика за год",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aliquam fuga aspernatur quaerat nobis deserunt.",
-          "subtitle1": "Views",
-          "subtitle2": "Images",
-          "subtitle3": "Sites",
-          "subtitle4": "Projects",
-          "number1": "69809",
-          "number2": "3726",
-          "number3": "341",
-          "number4": "57",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "counters2",
-          "_anchor": "counters2-h"
-        },
-        {
-          "_params": {
-            "stripedBars": false,
-            "progress1": "42",
-            "progress2": 45,
-            "progress3": 65,
-            "progress4": 85,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/08.jpg",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#34495e",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#090909",
-            "overlayOpacity": 0.85
-          },
-          "title": "Basic Progress Bars",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem fugiat perferendis voluptates, animi cum dignissimos debitis, nam hic aspernatur cumque quaerat dolorum sed, delectus rerum omnis consequatur nulla neque temporibus quis ipsam dolor esse dolore! Commodi quidem necessitatibus nesciunt. Repellat quo dolores beatae facere provident rem magnam quidem vel autem?",
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/image11.jpg",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/HnPYeBJ9JCc"
-            }
-          },
-          "title1": "Photoshop",
-          "title2": "Illustrator",
-          "title3": "Coreldraw",
-          "title4": "Photography",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "progress-bar5",
-          "_anchor": "progress-bar5-k"
-        },
-        {
-          "_params": {
-            "progress1": 30,
-            "progress2": 40,
-            "progress3": 50,
-            "progress4": 60,
-            "progress5": 70,
-            "progress6": 80,
-            "showTitles": true,
-            "showTexts": true,
-            "progressColor": "#f39c12",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#090909",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#f3f0f0",
-            "overlayOpacity": 0.7
-          },
-          "title1": "сами дураки",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "прети",
-          "title2": "Удовлетворены",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "егкеногаео",
-          "title3": "Кончают от нашего сервиса",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "рпрлт орлт",
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "progress-bar7",
-          "_anchor": "progress-bar7-l",
-          "_styles": {
-            "path[stroke]": {
-              "stroke": "#f39c12 !important"
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
             },
             "P": {
-              "color": "#f39c12"
+              "font-size": "18px"
             },
-            "H4": {
-              "color": "#f39c12"
+            "B": {
+              "font-size": "18px"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#eeeeee"
+          },
+          "title": "От автора",
+          "meta": "<br><b>Я никому и ничего не обещаю и не гарантирую&nbsp;</b><br><br><b>Бизнес по определению не могут делать все</b><br><br><b>Если из группы в 10 человек открыть свое дело получится хотя бы у 1-2 участников, то это уже будет отличный результат</b><br><br><b>Но я уверен в том, что:</b><br><br><b>- ничто не мешает именно Вам стать одним из них&nbsp;</b><br><br><b>- независимо от Вашего результата, это обучение не пройдет бесследно и Вы уже никогда не будете прежним</b><br><br><b>- полученные Вами навыки останутся с Вами на всю жизнь и затраченное вернется многократно</b><br><br><b>- за 2 месяца Вы получите знания и навыки, которые не дадут Вам за годы обучения в университете&nbsp;<br></b><br><b>Кроме того, у лучших, возможно, будет шанс пройти последующее обучение в Москве на курсах от Правительства Москвы<br></b><br><br><br><b>Итак, поехали!<br></b><br><br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-12"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "B": {
+              "font-size": "18px"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#eeeeee"
+          },
+          "title": "Чего не будет?",
+          "meta": "<b><br></b><br><b>Не будет сектанства\n</b><br><b><br>Не будет рекламы </b><br><b>\n<br>Не будет пустой болтовни\n</b><br><b><br>Не будет \"воды\" и НЛП-технологий\n</b><br><b><br>Не будет \"волшебной таблетки\"\n</b><br><b><br>Не будет сказок и обещаний о миллиардах</b>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-s"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "B": {
+              "font-size": "18px"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#eeeeee"
+          },
+          "title": "Что будет?",
+          "meta": "<b><br></b><br><b>Будет много работы </b><br><b>\n<br>Будет много реальной информации </b><br><b> \n<br>Будет наставничество и стимул что-то изменить </b><br><br><b>Будут практические занятия и домашние задания<br></b><br><b>Будет индивидуальная работа и работа в команде\n</b><br><b><br>Будет пошагово пройден путь по открытию своего дела\n</b><br><b><br>У кого-то, возможно, уже через 2 месяца будет свой бизнес</b><br><b>\n<br>У кого-то просто появится дополнительный доход\n</b><br><b><br>Кто-то переедет в Москву\n</b><br><br><b>Точно у всех будет порядок в голове\n</b><br><b><br>Точно вы никогда уже не будете прежними</b>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-t"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "B": {
+              "font-size": "18px"
+            },
+            "P": {
+              "font-size": "18px"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#eeeeee"
+          },
+          "title": "Для кого?",
+          "meta": "<b><br></b><br><b>Возраст и пол значения не имеют</b><br><br><b>Ты хотел бы зарабатывать больше на своей работе\n</b><br><b><br>Ты хочешь открыть свое дело\n</b><br><b><br>Ты устал работать на кого-то</b><br><b>\n</b><br><b>У тебя нет четкого понимания как вести свои финансы</b><br><b><br>У тебя нет чёткого понимания что такое бизнес\n</b><br><b><br>Ты не понимаешь в чем разница между работой по найму, бизнесом и инвестированием\n</b><br><b><br>Ты чувствуешь, что в школе-университете тебе чего-то недодают\n</b><br><b><br>Не знаешь с чего начать свое дело\n</b><br><b><br>Нет четкой системы в голове\n</b><br><b><br>Тебе 40 лет, а денег нет\n</b><br><b><br>Ты по уши в кредитах и не понимаешь \"как так получилось?\"\n</b><br><b><br>Тебе 18, но ты не хочешь однажды проснуться и осознать, что всю жизнь шел не туда </b><br><br><b>Ты часами смотришь телевизор, сидишь в интернете или играешь в игры</b><br><br><b>Занимаешься еще какой-нибудь ерундой<br></b><b><br>Тебя не устраивает твой круг общения\n</b><br><b><br>Ты хочешь что-то изменить в своей жизни\n</b><br><b><br>Ты просто хочешь переехать в Москву</b>\n<br>\n<br><i>Если хотя бы один пункт подходит, то это для Тебя</i>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-u"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "B": {
+              "font-size": "18px"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#eeeeee"
+          },
+          "title": "Это точно не для тебя если:",
+          "meta": "<b><br></b><br><b>Ты циник, скептик, гопник\n</b><br><b><br>Тебе это не интересно\n</b><br><b><br>Ты ждешь какого-то чуда\n</b><br><b><br>Ты думаешь, что за тебя кто-то что-то будет делать\n</b><br><b><br>Ты из категории людей \"Верните мне деньги за бесплатный курс\" </b><br><b>\n<br>Ты не настроен работать\n</b><br><b><br>Бросаешь все, за что берешься</b>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-v"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "B": {
+              "font-size": "18px"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#eeeeee"
+          },
+          "title": "Это возможно не для тебя:",
+          "meta": "<b><br></b><br><b>Тебя все устраивает\n</b><br><b><br>Для тебя не проблема распланировать свой бюджет </b><br><b>\n<br>Ты точно знаешь принципиальную разницу между инвестором и наемным работником </b><br><b>\n<br>У тебя есть четкая система в голове\n</b><br><b><br>У тебя есть действующий бизнес с чистой прибылью от 50 тыс</b>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-w"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "B": {
+              "font-size": "18px"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#eeeeee"
+          },
+          "title": "Это возможно для тебя:",
+          "meta": "<b><br></b><br><b>У тебя есть небольшое дело, но нет видения его развития\n</b><br><b><br>У тебя есть дело, но ты не работаешь в интернете\n</b><br><b><br>У тебя есть дело, но нет общего понимания куда идти</b>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-x"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "5",
+            "paddingBottom": "0",
+            "bgColor": "#eeeeee"
+          },
+          "title": "Кто?",
+          "meta": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-d"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showText": true,
+            "showButtons": false,
+            "bgCardImage": "@PROJECT_PATH@/assets/images/boy.jpg",
+            "paddingTop": "0",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/grass.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#eeeeee",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#233f5b",
+            "overlayOpacity": 0.8
+          },
+          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/03.jpg",
+              "class": ""
+            }
+          },
+          "title": "",
+          "subtitle": "",
+          "text": "В 22 года я уехал из Кром в Москву со 180 долларами в кармане.<br>За моими плечами 2 красных диплома и аспирантура.<br>Около 9 лет опыта работы на фрилансе.<br>Прошел программу обучения по открытию своего дела от Правительства Москвы. <br>Один из победителей в командном зачете.<br>Очень жалею, что таких возможностей не было в мои 18 лет",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials3",
+          "_anchor": "testimonials3-c",
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#000000"
             }
           }
         },
@@ -611,16 +376,16 @@
             ".mbr-section__container .mbr-section-subtitle": {
               "color": "#a0a0a0"
             },
-            "H1": {
-              "color": "#f39c12"
+            ".mbr-price-figure": {
+              "font-size": "72px"
             }
           },
           "_params": {
             "showTitle": true,
             "showSubtitle": true,
-            "firstType": "",
-            "secondType": "popular",
-            "thirdType": "",
+            "firstType": "default",
+            "secondType": "default",
+            "thirdType": "hidden",
             "fourthType": "hidden",
             "paddingTop": 3,
             "paddingBottom": 3,
@@ -629,7 +394,7 @@
             "bgImage": "@THEME_PATH@/components/_images/pricing-table/pricing-table-bg.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#090909",
+            "bgColor": "#eeeeee",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -638,11 +403,11 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "Прайс",
-          "subtitle": " This new-found knowledge may then be used by engineers to create new tools and machines.",
-          "title1": "Спросить",
-          "title2": "Сайт",
-          "title3": "Директ",
+          "title": "Сколько стоит?",
+          "subtitle": "",
+          "title1": "за 1 место",
+          "title2": "за 1 место",
+          "title3": "CORPORATE PLAN",
           "title4": "ULTIMATE PLAN",
           "label1": "POPULAR",
           "label2": "POPULAR",
@@ -650,392 +415,76 @@
           "label4": "POPULAR",
           "currency1": "",
           "currency2": "",
-          "currency3": "",
+          "currency3": "$",
           "currency4": "$",
-          "price1": "29000",
-          "price2": "50000&nbsp;",
-          "price3": "95000",
+          "price1": "12 000",
+          "price2": "11 000",
+          "price3": "65",
           "price4": "190",
-          "period1": "/р",
-          "period2": "/р",
-          "period3": "/р",
+          "period1": "/руб.",
+          "period2": "/руб.",
+          "period3": "/mo",
           "period4": "/mo",
-          "list1": "Задать вопрос \"Почему так дешево?\"<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"></li></ul>",
-          "list2": "Эксклюзивный сайт на тильде<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"></li></ul>",
-          "list3": "Элитная настройка директ<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"></li></ul>",
+          "list1": "<p><b>При наборе группы</b></p><p><b>10 чел.</b></p>",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>При наборе группы</b></li><li class=\"list-group-item\"><b>12 чел.</b></li></ul>",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>50</b> Projects</li><li class=\"list-group-item\"><b>100</b> Images</li><li class=\"list-group-item\"><b>24/7</b> Support</li></ul>",
           "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Unlimited</b> Projects</li><li class=\"list-group-item\"><b>Unlimited</b> Images</li><li class=\"list-group-item\"><b>24/7</b> Support</li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">заказать</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">Заказать</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">Заказать</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"mailto:Romavent@mail.ru\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">Подробнее</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"mailto:Romavent@mail.ru\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">Подробнее</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "pricing-table1",
-          "_anchor": "pricing-table1-p"
+          "_name": "pricing-table2",
+          "_anchor": "pricing-table2-f"
         },
         {
           "_styles": {
-            ".mbr-section-title": {
-              "color": "#f39c12"
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "32px",
+              "color": "#af1f10"
             }
           },
           "_params": {
-            "showHeader": true,
-            "showHeaderText": true,
-            "showImages": true,
-            "showTitles": true,
-            "tabs": "3",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/04.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#090909",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.9
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#eeeeee"
           },
-          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
-          "title": "Купи сейчас!",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque mollitia ipsa ullam, voluptas beatae qui eligendi eveniet necessitatibus perferendis exercitationem fuga iure voluptates voluptatibus laborum sit est. Odit quas facilis tenetur, exercitationem nesciunt. Doloremque voluptatibus officia quod, nostrum tempore quos hic quae molestias! Vero iste itaque cupiditate a nobis, soluta.",
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/image1.jpg"
-            }
-          },
-          "title11": "BOOST YOUR RANKING",
-          "title12": "BOOST YOUR RANKING",
-          "title13": "BOOST YOUR RANKING",
-          "title21": "Шляпа",
-          "title22": "BOOTSTRAP BUILDER",
-          "title23": "BOOTSTRAP BUILDER",
-          "title31": "BOOST YOUR RANKING",
-          "title32": "BOOST YOUR RANKING",
-          "title33": "BOOST YOUR RANKING",
-          "title51": "BOOTSTRAP BUILDER",
-          "title52": "BOOTSTRAP BUILDER",
-          "title53": "BOOTSTRAP BUILDER",
-          "title61": "TRENDY WEBSITE BLOCKS",
-          "title62": "TRENDY WEBSITE BLOCKS",
-          "title63": "TRENDY WEBSITE BLOCKS",
-          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1tabs2-u\" aria-expanded=\"false\">купить</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2tabs2-u\" aria-expanded=\"true\">забить</a></li><li class=\"nav-item nav-item-last\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3tabs2-u\" aria-expanded=\"false\">прибить</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4tabs2-u\">Awesome</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5tabs2-u\">Amazing</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6tabs2-u\">Beautiful</a></li>",
-          "media11": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header5",
-              "linkInNewWindow": false,
-              "name": "apple",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#ecf0f1"
-            }
-          },
-          "media12": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "attachment",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
-            }
-          },
-          "media13": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "paperclip",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
-            }
-          },
-          "media21": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header5",
-              "linkInNewWindow": false,
-              "name": "apple",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "@primaryColor"
-            }
-          },
-          "media22": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "genius",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
-            }
-          },
-          "media23": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "global",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
-            }
-          },
-          "media31": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "upload",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
-            }
-          },
-          "media32": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "genius",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
-            }
-          },
-          "media33": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "global",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
-            }
-          },
-          "media41": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
-            }
-          },
-          "media42": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "attachment",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
-            }
-          },
-          "media43": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "paperclip",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
-            }
-          },
-          "media51": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "upload",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
-            }
-          },
-          "media52": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "genius",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
-            }
-          },
-          "media53": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "global",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
-            }
-          },
-          "media61": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "upload",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
-            }
-          },
-          "media62": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "genius",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
-            }
-          },
-          "media63": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "global",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
-            }
-          },
-          "text11": "Sites made with Mobirise are 100% mobile-friendly according the latest Google Test and Google loves those websites (officially)! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut cupiditate est, illum quo. Unde in fugit commodi labore earum harum, minus itaque maxime asperiores voluptatibus, iusto quae, ab dignissimos sequi.",
-          "text12": "Sites made with Mobirise are 100% mobile-friendly according the latest Google Test and Google loves those websites (officially)! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut cupiditate est, illum quo. Unde in fugit commodi labore earum harum, minus itaque maxime asperiores voluptatibus, iusto quae, ab dignissimos sequi.",
-          "text13": "Sites made with Mobirise are 100% mobile-friendly according the latest Google Test and Google loves those websites (officially)! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut cupiditate est, illum quo. Unde in fugit commodi labore earum harum, minus itaque maxime asperiores voluptatibus, iusto quae, ab dignissimos sequi.",
-          "text21": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique maxime, placeat. Dignissimos incidunt, consequuntur molestiae! Exercitationem tempora qui, non sit quia, voluptate sequi repudiandae accusamus voluptatem expedita ducimus vero incidunt.",
-          "text22": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique maxime, placeat. Dignissimos incidunt, consequuntur molestiae! Exercitationem tempora qui, non sit quia, voluptate sequi repudiandae accusamus voluptatem expedita ducimus vero incidunt.",
-          "text23": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique maxime, placeat. Dignissimos incidunt, consequuntur molestiae! Exercitationem tempora qui, non sit quia, voluptate sequi repudiandae accusamus voluptatem expedita ducimus vero incidunt.",
-          "text31": "Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nam officia. Repellendus quae modi eaque sed, aliquam molestias, amet neque blanditiis illo ratione eos! Unde minima porro, consequatur eveniet dolore!",
-          "text32": "Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nam officia. Repellendus quae modi eaque sed, aliquam molestias, amet neque blanditiis illo ratione eos! Unde minima porro, consequatur eveniet dolore!",
-          "text33": "Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nam officia. Repellendus quae modi eaque sed, aliquam molestias, amet neque blanditiis illo ratione eos! Unde minima porro, consequatur eveniet dolore!",
-          "text41": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, nisi, ea. Excepturi dolores, laborum ipsum soluta aliquid, ullam repellat ratione iste harum voluptatem? Alias id blanditiis, sequi possimus dolorem dolorum.",
-          "text42": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, nisi, ea. Excepturi dolores, laborum ipsum soluta aliquid, ullam repellat ratione iste harum voluptatem? Alias id blanditiis, sequi possimus dolorem dolorum.",
-          "text43": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, nisi, ea. Excepturi dolores, laborum ipsum soluta aliquid, ullam repellat ratione iste harum voluptatem? Alias id blanditiis, sequi possimus dolorem dolorum.",
-          "text51": "Create a responsive, touch-swipe slideshow with <a href=\"http://mobirise.com\">Mobirise bootstrap slider</a>. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt, illo quo ipsa. Laboriosam voluptatem sunt nisi velit incidunt labore, sapiente pariatur ipsam fugiat doloremque asperiores eos ipsum, eveniet cum.",
-          "text52": "Create a responsive, touch-swipe slideshow with <a href=\"http://mobirise.com\">Mobirise bootstrap slider</a>. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt, illo quo ipsa. Laboriosam voluptatem sunt nisi velit incidunt labore, sapiente pariatur ipsam fugiat doloremque asperiores eos ipsum, eveniet cum.",
-          "text53": "Create a responsive, touch-swipe slideshow with <a href=\"http://mobirise.com\">Mobirise bootstrap slider</a>. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt, illo quo ipsa. Laboriosam voluptatem sunt nisi velit incidunt labore, sapiente pariatur ipsam fugiat doloremque asperiores eos ipsum, eveniet cum.",
-          "text61": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.",
-          "text62": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.",
-          "text63": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.",
-          "alias": "colorm/components",
+          "title": "Стоимость подобных курсов начинается от 60 тыс. р.",
+          "meta": "",
           "_tags": [
             "Theme"
           ],
-          "_name": "tabs2",
-          "_anchor": "tabs2-u"
+          "_name": "content3",
+          "_anchor": "content3-j"
         },
         {
-          "_params": {
-            "showTitle": true,
-            "showSubtitle": true,
-            "showText": true,
-            "showButtons": false,
-            "bgCardImage": "@PROJECT_PATH@/assets/images/boy.jpg",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/grass.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#090909",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
-            },
-            "overlay": true,
-            "overlayColor": "#090909",
-            "overlayOpacity": 0.8
-          },
-          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
-          "media": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/features/03.jpg",
-              "class": ""
-            }
-          },
-          "title": "Просто Вася",
-          "subtitle": "стьоо ргрлт орор<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>",
-          "text": "Печальная история про Васю",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">learn more</a>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "testimonials3",
-          "_anchor": "testimonials3-t"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "tabs": "3",
-            "paddingTop": 2,
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/img_extAccordion1_bg.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#090909",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "title": "FAQи",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
-          "title1": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-v-init\" data-core=\"\" href=\"#collapseOneaccordion1-v\" aria-expanded=\"true\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Какого?</a>",
-          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-v-init\" data-core=\"\" href=\"#collapseTwoaccordion1-v\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">И это все мне?</a>",
-          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-v-init\" data-core=\"\" href=\"#collapseThreeaccordion1-v\" aria-expanded=\"true\" aria-controls=\"collapseThree\">Хочу еще?</a>",
-          "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">This is a accordion Title 4</a>",
-          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
-          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
-          "text1": "<p>Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.</p>",
-          "text2": "<p>Mobirise is perfect for non-techies who are not familiar with the intricacies of web development and for designers who prefer to work as visually as possible, without fighting with code. Also great for pro-coders for fast prototyping and small customers' projects.</p>",
-          "text3": "<p>Key differences from traditional builders:<br>* Minimalistic, extremely <strong>easy-to-use</strong> interface<br>* <strong>Mobile</strong>-friendliness, latest website blocks and techniques \"out-the-box\"<br>* <strong>Free</strong> for commercial and non-profit use</p>",
-          "text4": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
-          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
-          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "accordion1",
-          "_anchor": "accordion1-v",
           "_styles": {
-            "H1": {
-              "color": "#f39c12"
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "B": {
+              "color": "#000000"
             }
-          }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "3",
+            "paddingBottom": 1,
+            "bgColor": "#eeeeee"
+          },
+          "title": "Что потребуется еще?<br>",
+          "meta": "<b><br></b><br><b>Жалательно иметь:</b><br><b><br></b><b>Смартфон</b><br><b><br>Компьютер или ноутбук с выходом в интернет</b><br><b><br>Стартовый капитал 3-5 тыс. р.</b><br><b><br></b><br><b>Обязательно:</b><br><br><b>Порядочность</b><br><br><b>Доброжелательное отношение к окружающим</b><br><br><b>Готовность работать в команде</b><br><br><b>Неприятие противозаконных форм ведения бизнеса и поведения<br></b><b><br>Разрешение от родителей, если вам нет 18 лет</b><br><br><br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-10"
         },
         {
           "_params": {
@@ -1048,7 +497,7 @@
             "bgImage": "@THEME_PATH@/components/_images/header/05.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#090909",
+            "bgColor": "#eeeeee",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1057,147 +506,112 @@
             "overlayColor": "#ecf0f1",
             "overlayOpacity": 0.75
           },
-          "title": "Уже не успел",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci a, rem accusantium recusandae beatae. Eos quae sint minus dolorum facere, iure illum veritatis harum minima quod voluptatibus culpa tenetur eveniet enim. Natus, id cupiditate aperiam obcaecati incidunt nam minus accusantium libero officia expedita dignissimos optio, quis, minima quibusdam esse saepe!",
+          "title": "Когда?",
+          "text": "<b>Возможно начало раньше при полном укомплектовании группы</b>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
           "_name": "countdown1",
-          "_anchor": "countdown1-x",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#f39c12"
-            }
-          }
-        },
-        {
-          "_styles": {
-            ".btn-social": {
-              "color": "#fff",
-              "height": "60px",
-              "width": "60px",
-              "line-height": "60px",
-              "font-size": "2rem"
-            },
-            ".mbr-section-title": {
-              "color": "#fff"
-            }
-          },
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/img_extHeader7_bg.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#090909",
-            "overlay": true,
-            "overlayColor": "#35a0c6",
-            "overlayOpacity": 0.4,
-            "facebook": false,
-            "twitter": false,
-            "google": false,
-            "vkontakte": true,
-            "odnoklassniki": true
-          },
-          "text": "жми уже!",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "social-buttons1",
-          "_anchor": "social-buttons1-z"
+          "_anchor": "countdown1-y"
         },
         {
           "_styles": {
             ".mbr-section-title": {
-              "color": "#f39c12",
-              "font-size": "36px"
+              "font-size": "46px"
             }
           },
           "_params": {
-            "showTitles": true,
-            "paddingTop": 4,
+            "paddingTop": 2,
             "paddingBottom": 2,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showText1": false,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/footer5.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/header/07.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#090909",
+            "bgColor": "#eeeeee",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
             "overlay": true,
-            "overlayColor": "#ffffff",
-            "overlayOpacity": 0.8
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
           },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@THEME_PATH@/components/_images/colorm_logo.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "title1": "product",
-          "text11": "",
-          "text12": "",
-          "text13": "",
-          "text14": "",
-          "text15": "",
-          "title2": "company",
-          "text21": "",
-          "text22": "",
-          "text23": "",
-          "text24": "",
-          "text25": "",
-          "title3": "Learn more",
-          "text31": "",
-          "text32": "",
-          "text33": "",
-          "text34": "",
-          "text35": "",
-          "title4": "product",
-          "text41": "",
-          "text42": "",
-          "text43": "",
-          "text44": "",
-          "text45": "",
-          "header1": "НУ НАЖМИ, ПОЖАЛУЙСТА, ХОТЯ БЫ ТУТ",
-          "text": "Copyright (c) 2019 &nbsp;ФИГА СЕ АГЕНСИ.",
-          "form": {
-            "action": "RomaUmi@mail.ru",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "name": {
-                "visible": false,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email"
-              },
-              "phone": {
-                "visible": false,
-                "title": "Phone",
-                "customTitle": "Phone"
-              }
-            }
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
+          "title": "Это единственный набор группы<br>Такого больше не будет<br>Успей вскочить в последний вагон",
+          "text": "",
+          "text1": "or <a href=\"http://mobirise.com\">Check FAQ</a>.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://api.whatsapp.com/send?phone=79651237911.\" data-toolbar=\"-mbrBtnMove\">WhatsApp</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"mailto:Romavent@mail.ru\" data-toolbar=\"-mbrBtnMove\">Email</a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "footer5",
-          "_anchor": "footer5-11"
+          "_name": "call5",
+          "_anchor": "call5-h"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "25px"
+            },
+            "B": {
+              "font-size": "18px"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "Расскажи тем, кому это может быть нужно. И помоги изменить их жизнь",
+          "meta": "<b><br></b><br><b>Не получилось связаться иным способом?&nbsp;<br>Звони!</b>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-13"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            },
+            "P": {
+              "font-size": "18px"
+            },
+            "B": {
+              "color": "#f39c12",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "20px"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "<b>8 (960) 645-96-60</b>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-z"
         }
       ]
     }
