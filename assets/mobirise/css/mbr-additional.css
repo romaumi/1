@@ -1,8 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-
 
 
 
@@ -720,141 +718,77 @@ blockquote {
   font-family: 'Montserrat', sans-serif;
 }
 /*end colorM*/
-#header3-0 .display-1 {
+#features16-5 .mbr-section-title {
   font-weight: 700;
-}
-#header3-0 .lead {
-  color: #fff;
+  letter-spacing: .5vw;
   text-transform: uppercase;
-  margin-bottom: 0;
 }
-#header3-0 .mbr-section-subtitle {
-  font-size: 18px;
-}
-#content3-b .mbr-section-title,
-#content3-b .mbr-section-subtitle {
-  text-align: center;
-}
-#content3-b P {
-  font-size: 20px;
-}
-#content3-b H3 {
-  font-size: 46px;
-}
-#content3-11 .mbr-section-title,
-#content3-11 .mbr-section-subtitle {
-  text-align: center;
-}
-#content3-11 B {
-  font-size: 18px;
-}
-#content3-12 .mbr-section-title,
-#content3-12 .mbr-section-subtitle {
-  text-align: center;
-}
-#content3-12 P {
-  font-size: 18px;
-}
-#content3-12 B {
-  font-size: 18px;
-}
-#content3-s .mbr-section-title,
-#content3-s .mbr-section-subtitle {
-  text-align: center;
-}
-#content3-s B {
-  font-size: 18px;
-}
-#content3-t .mbr-section-title,
-#content3-t .mbr-section-subtitle {
-  text-align: center;
-}
-#content3-t B {
-  font-size: 18px;
-}
-#content3-u .mbr-section-title,
-#content3-u .mbr-section-subtitle {
-  text-align: center;
-}
-#content3-u B {
-  font-size: 18px;
-}
-#content3-u P {
-  font-size: 18px;
-}
-#content3-v .mbr-section-title,
-#content3-v .mbr-section-subtitle {
-  text-align: center;
-}
-#content3-v B {
-  font-size: 18px;
-}
-#content3-w .mbr-section-title,
-#content3-w .mbr-section-subtitle {
-  text-align: center;
-}
-#content3-w B {
-  font-size: 18px;
-}
-#content3-x .mbr-section-title,
-#content3-x .mbr-section-subtitle {
-  text-align: center;
-}
-#content3-x B {
-  font-size: 18px;
-}
-#content3-d .mbr-section-title,
-#content3-d .mbr-section-subtitle {
-  text-align: center;
-}
-#testimonials3-c .mbr-section-text {
-  color: #000000;
-}
-#pricing-table2-f .mbr-section__container .mbr-section-title {
+#features16-5 .mbr-section-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 2px;
   color: #fff;
 }
-#pricing-table2-f .mbr-section__container .mbr-section-subtitle {
+#features16-6 .mbr-section-title {
+  font-weight: 700;
+  letter-spacing: .5vw;
+  text-transform: uppercase;
+}
+#features16-6 .mbr-section-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+}
+#intro6-7 .mbr-section-title {
+  color: #f39c12;
+}
+#content3-8 .mbr-section-title,
+#content3-8 .mbr-section-subtitle {
+  text-align: center;
+}
+#content3-8 H3 {
+  color: #f39c12;
+}
+#counters2-h H2 {
+  color: #f39c12;
+}
+#progress-bar7-l path[stroke] {
+  stroke: #f39c12 !important;
+}
+#progress-bar7-l P {
+  color: #f39c12;
+}
+#progress-bar7-l H4 {
+  color: #f39c12;
+}
+#pricing-table1-p .mbr-section__container .mbr-section-title {
+  color: #fff;
+}
+#pricing-table1-p .mbr-section__container .mbr-section-subtitle {
   color: #a0a0a0;
 }
-#pricing-table2-f .mbr-price-figure {
-  font-size: 72px;
+#pricing-table1-p H1 {
+  color: #f39c12;
 }
-#content3-j .mbr-section-title,
-#content3-j .mbr-section-subtitle {
-  text-align: center;
+#tabs2-u .mbr-section-title {
+  color: #f39c12;
 }
-#content3-j H3 {
-  font-size: 32px;
-  color: #af1f10;
+#accordion1-v H1 {
+  color: #f39c12;
 }
-#content3-10 .mbr-section-title,
-#content3-10 .mbr-section-subtitle {
-  text-align: center;
+#countdown1-x .mbr-section-title {
+  color: #f39c12;
 }
-#content3-10 B {
-  color: #000000;
+#social-buttons1-z .btn-social {
+  color: #fff;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  font-size: 2rem;
 }
-#call5-h .mbr-section-title {
-  font-size: 46px;
-}
-#content3-13 .mbr-section-title,
-#content3-13 .mbr-section-subtitle {
-  text-align: center;
-}
-#content3-13 H3 {
-  font-size: 25px;
-}
-#content3-13 B {
-  font-size: 18px;
-}
-#footer2-z .mbr-section-text {
+#social-buttons1-z .mbr-section-title {
   color: #fff;
 }
-#footer2-z P {
-  font-size: 18px;
-}
-#footer2-z B {
+#footer5-11 .mbr-section-title {
   color: #f39c12;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 20px;
+  font-size: 36px;
 }
