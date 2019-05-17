@@ -520,7 +520,7 @@
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/image11.jpg",
+              "src": "@PROJECT_PATH@/assets/images/image10.jpg",
               "link": "",
               "alt": "",
               "title": ""
@@ -653,7 +653,7 @@
           "currency3": "",
           "currency4": "$",
           "price1": "29000",
-          "price2": "50000&nbsp;",
+          "price2": "51000&nbsp;",
           "price3": "95000",
           "price4": "190",
           "period1": "/р",
